@@ -1,0 +1,36 @@
+.numbered-information{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+	margin-top: 30px;
+}
+.number-title{
+	margin: 0;
+}
+.yellow-spotting{
+	background-color: var(--color-orange);
+	padding-top: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: 30px;
+	font-weight: 700px;
+	color: white;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+.number-info{
+	font-weight: bolder;
+}
+.number-title{
+	font-size: 19px;
+	font-weight: 600px;
+}
+.number-detail{
+	margin-left: 10px;
+}
+.number-info{
+	color: lightgray;
+}

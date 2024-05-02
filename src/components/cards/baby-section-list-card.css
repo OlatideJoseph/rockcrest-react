@@ -1,0 +1,23 @@
+.baby-container{
+	border: 3px solid whitesmoke;
+	border-radius: 8px;
+	padding: 20px;
+}
+.baby-container  img{
+	border-radius: 15px;
+	cursor: pointer;
+}
+.baby-properties{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.baby-color-orange{
+	color: var(--color-orange);
+}
+.bpsb{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+}

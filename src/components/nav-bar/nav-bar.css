@@ -1,0 +1,78 @@
+button[class^='nav-bar']{
+	text-align: center;
+	border-radius: 15px;
+	cursor: pointer;
+	padding: 5px;
+	transition: .3s;
+	width: 40%;
+}
+li{
+	list-style-type: none;
+	cursor: pointer;
+	transition: .3s;
+	margin-top: 6px;
+}
+.nav-bar{
+	transition: .3s ease;
+	padding-left: 30px;
+}
+.nav-bar, .nav-links{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+.nav-links{
+	justify-content: space-between;
+	width: 60%;
+}
+.nav-link{
+	color: white;
+}
+.nav-bar-buttons{
+	margin-left: 10px;
+	margin-top: 5px;
+	width: 20%;
+	padding-top: 18px;
+}
+.signup-btn{
+	margin-left: 5px;
+	border: none;
+	background: var(--color-orange);
+	transition: .3s ease;
+}
+.nav-up .signup-btn{
+	border: 2px solid white;
+	color: white;
+	background: transparent;
+}
+.nav-up .signup-btn:hover{
+	color: var(--color-orange);
+	background: gray;
+}
+.login-btn{
+	border: 2px solid white;
+	color: white;
+	background: transparent;
+}
+.login-btn:hover{
+	color: var(--color-orange);
+	background: gray;
+}
+.nav-link:hover{
+	color: #FFD580;
+	transform: translateY(10px);
+}
+.nav-up .nav-link:hover{
+	color: white;
+	transform: none;
+	text-decoration: underline;
+}
+
+.nav-up{
+	box-shadow: 0 -3px 5px 2px black;
+	position: fixed !important;
+	z-index: 3;
+	top: 0;
+	background-color:var(--color-orange);
+	width: 98%;
+}
